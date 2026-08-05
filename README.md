@@ -18,9 +18,9 @@ pipeline together with a stage-by-stage capability profile scored from 1–10.
 |---|---:|
 | Target Discovery | 9/10 |
 | Molecular Design | 7/10 |
-| Preclinical Development | 7/10 |
-| Clinical Development | 7/10 |
-| Marketed Medicine | 2/10 |
+| Preclinical Development | 6/10 |
+| Clinical Development | 4/10 |
+| Marketed Medicine | 1/10 |
 
 ## Regenerate
 

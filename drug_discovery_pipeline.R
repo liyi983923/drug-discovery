@@ -123,7 +123,7 @@ stage_details <- list(
 # 修改 score 即可同时更新流程图上的评分徽章和底部进度条。
 capability <- data.frame(
   stage = c("TARGET", "DESIGN", "PRECLINICAL", "CLINICAL", "MARKETED"),
-  score = c(9, 7, 7, 7, 2),
+  score = c(9, 7, 6, 4, 1),
   colour = unname(c(
     colours["wine"], colours["orange"], colours["green"],
     "#86AA80", colours["charcoal"]
