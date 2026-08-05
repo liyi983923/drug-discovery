@@ -24,8 +24,8 @@ pipeline together with a stage-by-stage capability profile scored from 1–10.
 
 ## Regenerate
 
-The script uses `grid`, `ragg`, `svglite`, `systemfonts`, `showtext`, and
-`magick`. From the repository directory, run:
+The script uses `grid`, `ragg`, `svglite`, `systemfonts`, and `magick`.
+From the repository directory, run:
 
 ```bash
 Rscript drug_discovery_pipeline.R
@@ -33,3 +33,15 @@ Rscript drug_discovery_pipeline.R
 
 Roboto Condensed font files and their license are included under `fonts/`.
 
+## Edit the figure
+
+The main editable settings are grouped in section 2 of
+`drug_discovery_pipeline.R`:
+
+- `stage_details` — descriptions shown below stages 1–4
+- `capability$score` — capability scores from 1–10
+- `colours` — figure palette
+- `pipeline_y_shift` — vertical position of the pipeline group
+
+The R source includes Chinese comments explaining the input files, coordinate
+system, drawing functions, and export settings.
